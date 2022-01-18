@@ -1,0 +1,254 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+}
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.logo a{
+    font-size: 50px;
+    font-weight: 800px;
+    float: left;
+    font-family:Arial;
+    color: #364f6b;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    padding: 0px 20px 0px 20px;
+}
+
+section img{
+    padding: 30px 0px 30px 0px;
+}
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Patua One';
+    color: #364f6b;
+}
+h2{
+    font-family: 'lobster';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+    text-shadow: 20px 10px #dedede;
+}
+a.tbl-biru{
+    background: #3f72af;
+    border-radius: 25px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tbl-biru:hover{
+    background: #fc5185;
+    text-decoration: none;
+}
+a.tbl-pink{
+    background: #3f72af;
+    border-radius: 25px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tbl-pink:hover{
+    background: #fc5185;
+    text-decoration: none;
+}
+p{
+    margin: 5px 0px 5px 0px;
+    padding: 5px 0px 5px 0px;
+}
+.tengah{
+    text-align: center;
+    width: 100%;
+}
+.tutor-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.kartu-tutor{
+    width: 20%;
+    margin: 0 auto;
+}
+.kartu-tutor img{
+    width: 80%;
+    border-radius: 50%;
+}
+.kartu-tutor p{
+    font-family: 'lobster';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
+
+
+#contact{
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section{
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3{
+    font-family: 'lobster';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+.partner-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.kartu-partner{
+    width: 20%;
+    margin: 0 auto;
+
+}
+.kartu-partner img{
+    width: 150px;
+    border-radius: 50px;
+}
+#copyright{
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+   
+}
+
+
+
+@media screen and (max-width: 991.98px){
+    .wrapper{
+        width: 100%;
+        
+    }
+    .logo a{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    nav .menu{
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul{
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li{
+        display: inline-block;
+        float: none;
+    }
+    section{
+        display: block;
+        padding: 0px 15px 0px 15px;
+    }
+    section img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .kartu-tutor {
+        width: 50%;
+    }
+    .kartu-partner {
+        width: 50%;
+    }
+    #contact{
+        width: 100%;
+        
+    }
+    #copyright{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+}
+a.tbl-pink1{
+  text-decoration: none;
+  color: black;
+}
+a.tbl-pink1:hover{
+    
+    text-decoration: none;
+}
+.deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Source Code Pro';
+    color: #364f6b;
+}
+.tabel1 {
+    font-family: sans-serif;
+    color: #364f6b;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #f2f5f7;
+}
+ 
+.tabel1 tr th{
+    background: #364f6b;
+    color: #fff;
+    font-weight: normal;
+}
+ 
+.tabel1, th, td {
+    padding: 10px 20px;
+    text-align: left;
+}
+ 
+.tabel1 tr:hover {
+    background-color: #f5f5f5;
+}
+ 
+.tabel1 tr:nth-child(even) {
+    background-color: #3fffff;
+}
+.scorl{overflow:auto; width:100%px; height:200px; padding:10px; border:1px solid white
+}
